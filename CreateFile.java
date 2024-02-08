@@ -10,9 +10,9 @@ public class CreateFile
         {
             File file = new File("D:Demo.txt");
             if (file.createNewFile()) {
-                System.out.println("File created: " + file.getName());
+                System.out.println("File is created: " + file.getName());
             } else {
-                System.out.println("File already exists.");
+                System.out.println("This File already exists.");
             }
         } catch (IOException e) {
             System.out.println("An error occurred while creating the file.");
